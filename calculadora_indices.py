@@ -22,4 +22,4 @@ def consumo_calorias_recomendado_para_adelgazar(peso, altura, edad, factor_gener
     tmb = calcular_calorias_en_reposo(peso, altura, edad, factor_genero)
     min_calorias = tmb * 0.8
     max_calorias = tmb * 0.85
-    return f"Para adelgazar es recomendado que consumas entre: {int(min_calorias)} y {int(max_calorias)} calorías al día."
+    return f"Para adelgazar lo recomendado es que consuma entre: {int(min_calorias)} y {int(max_calorias)} calorías al día."
