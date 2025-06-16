@@ -15,7 +15,7 @@ try:
     calcular_calorias_en_actividad = calcular_calorias_en_actividad(peso, altura, edad, genero, actividad)
     
     if calcular_calorias_en_actividad:
-        print(f"La cantidad de calorías que quemas por día con tu frecuencia de actividad es de: {calcular_calorias_en_actividad} calorías")
+        print(f"La cantidad de calorías que quema por día con su frecuencia de actividad es de: {calcular_calorias_en_actividad} calorías")
 except ValueError as error:
     print(error)
-    print("Asegurate de ingresar valores numéricos. El tipo de información que estás ingresando no es válido.")
+    print("Error. El tipo de información que estás ingresando no es válido. Deben ser números.")
